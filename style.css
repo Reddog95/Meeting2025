@@ -5,27 +5,33 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
     color: #333;
     text-align: center;
+
+    /* Styles pour l'image de fond */
+    background-image: url('fond_ecran.JPG'); /* Assurez-vous que ce nom correspond exactement à votre fichier image */
+    background-size: cover; /* L'image couvrira toute la zone disponible */
+    background-position: center center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+    background-attachment: fixed; /* L'image reste fixe lors du défilement */
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent pour le conteneur du décompte */
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce autour du conteneur */
 }
 
 h1 {
-    color: #0056b3;
+    color: #0056b3; /* Couleur du titre */
     margin-bottom: 20px;
 }
 
 #countdown {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; /* Espace entre chaque unité de temps (Jours, Heures...) */
     margin-top: 30px;
 }
 
@@ -36,24 +42,24 @@ h1 {
 }
 
 .time-unit span {
-    font-size: 3em;
+    font-size: 3em; /* Taille de la police pour les chiffres */
     font-weight: bold;
-    color: #007bff;
-    background-color: #e9ecef;
+    color: #007bff; /* Couleur des chiffres */
+    background-color: #e9ecef; /* Fond légèrement gris clair pour chaque unité de temps */
     padding: 10px 15px;
     border-radius: 5px;
-    min-width: 70px; /* Pour aligner les boîtes */
+    min-width: 70px; /* Largeur minimale pour aligner les boîtes */
 }
 
 .time-unit .label {
-    font-size: 0.9em;
+    font-size: 0.9em; /* Taille de la police pour les étiquettes (Jours, Heures...) */
     margin-top: 5px;
-    color: #555;
+    color: #555; /* Couleur des étiquettes */
 }
 
 #message {
     margin-top: 30px;
     font-size: 1.5em;
-    color: #dc3545;
+    color: #dc3545; /* Couleur du message final */
     font-weight: bold;
 }
