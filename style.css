@@ -10,7 +10,7 @@ body {
 
     /* Styles pour l'image de fond */
     background-image: url('fond_ecran.JPG'); /* Assurez-vous que ce nom correspond exactement à votre fichier image */
-    background-size: 100vw 100vh; /* L'image couvrira toute la zone disponible */
+    background-size: contain; /* L'image couvrira toute la zone disponible */
     background-position: center center; /* Centre l'image */
     background-repeat: no-repeat; /* Empêche l'image de se répéter */
     background-attachment: fixed; /* L'image reste fixe lors du défilement */
