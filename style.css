@@ -9,7 +9,7 @@ body {
     text-align: center;
 
     /* Styles pour l'image de fond */
-    background-image: url('fond_ecran.JPG'); /* Assurez-vous que ce nom correspond exactement à votre fichier image */
+    background-image: url('Slide1.jpg'); /* Assurez-vous que ce nom correspond exactement à votre fichier image */
     background-size: 100% auto; /* L'image couvrira toute la zone disponible */
     background-position: center center; /* Centre l'image */
     background-repeat: no-repeat; /* Empêche l'image de se répéter */
