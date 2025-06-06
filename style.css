@@ -5,9 +5,12 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    color: #FFD700;
+    color: #333;
     text-align: center;
 
+ /* Couleur de fond qui s'affichera derrière l'image */
+    background-color: orange; /* Utilisez 'orange' ou un code hexadécimal comme '#FFA500' */
+    
     /* Styles pour l'image de fond */
     background-image: url('Slide1.jpg'); /* Assurez-vous que ce nom correspond exactement à votre fichier image */
     background-size: auto 100%; /* L'image couvrira toute la zone disponible */
