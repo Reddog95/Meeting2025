@@ -25,7 +25,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Pour remonter le conteneur sur la page */
-    transform: translateY(-50px); /* Ajustez cette valeur si vous voulez le remonter plus ou moins */
+    transform: translateY(20px); /* Ajustez cette valeur si vous voulez le remonter plus ou moins */
 }    
 
 h1 {
