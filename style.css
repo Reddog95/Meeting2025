@@ -20,11 +20,13 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent pour le conteneur du décompte */
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce autour du conteneur */
-}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Pour remonter le conteneur sur la page */
+    transform: translateY(-50px); /* Ajustez cette valeur si vous voulez le remonter plus ou moins */
+}    
 
 h1 {
     color: #0056b3; /* Couleur du titre */
@@ -65,4 +67,28 @@ h1 {
     font-size: 1.5em;
     color: #dc3545; /* Couleur du message final */
     font-weight: bold;
+}
+/* --- Nouveaux styles pour la vidéo --- */
+
+.video-container {
+    margin-top: 40px; /* Ajoute de l'espace au-dessus du conteneur vidéo, le plaçant sous le décompte */
+    background-color: rgba(255, 255, 255, 0.9); /* Fond blanc légèrement plus opaque pour la vidéo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px; /* Limite la largeur maximale du conteneur vidéo */
+    margin-left: auto; /* Centre le conteneur vidéo horizontalement */
+    margin-right: auto; /* Centre le conteneur vidéo horizontalement */
+}
+
+.video-container h2 {
+    color: #0056b3; /* Couleur du titre "Notre Vidéo Spéciale !" */
+    margin-bottom: 15px;
+}
+
+.video-container video {
+    max-width: 100%; /* Rend la vidéo responsive, elle s'adapte à la largeur de son conteneur */
+    height: auto; /* Maintient le ratio d'aspect de la vidéo */
+    border-radius: 8px; /* Bords légèrement arrondis pour la vidéo */
+    display: block; /* Aide à la mise en page correcte */
 }
